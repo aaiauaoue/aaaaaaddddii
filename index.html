@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>2+2=4</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #ffffff;
+    }
+
+    #regnestykke {
+      font-size: 3em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="regnestykke">2+2=4</div>
+
+  <script>
+    document.getElementById("regnestykke").addEventListener("click", function () {
+      alert("Det er rigtigt!");
+    });
+  </script>
+</body>
+</html>
